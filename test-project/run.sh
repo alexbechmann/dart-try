@@ -1,0 +1,1 @@
+dart --enable-vm-service src/main.dart
