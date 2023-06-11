@@ -5,11 +5,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch Server",
+      "name": "main",
       "type": "dart",
       "request": "launch",
-      "program": "src/server.dart",
-      "cwd": "test-project",
+      "program": "src/main.dart",
+      "cwd": "${workspaceFolder}",
       "serverReadyAction": {
         "pattern": "Listening on localhost:([0-9]+)",
         "uriFormat": "http://localhost:%s",
