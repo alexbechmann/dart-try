@@ -5,12 +5,12 @@
 
 import 'dart:io';
 import 'package:recharge/recharge.dart';
-import './handle.dart';
+import 'handle/handle.dart';
 
 // Build recharge. Not using callback because after
 // code change functions will be replaced. Execution will
 // happen when next time request hits the server.
-var recharge = Recharge(path: ".");
+var recharge = Recharge(path: "./src");
 
 void main() async {
   // Initialize recharge

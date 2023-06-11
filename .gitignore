@@ -12,3 +12,5 @@ doc/api/
 
 # Don't exclude bin/ folders for Dart projects
 ![Bb]in/
+
+src/generated/*.dart

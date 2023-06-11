@@ -5,5 +5,6 @@ Example dart server with hot reload.
 ## Dev
 
 ```bash
-dart --enable-vm-service src/main.dart
+bash ./codegen.sh
+bash ./run.sh
 ```
